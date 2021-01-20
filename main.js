@@ -15,7 +15,7 @@ function startTimer() {
     document.getElementById("home").classList.add('d-none');
     document.getElementById("quiz").classList.remove('d-none');
 
-    // timer set and begins 120 second countdown
+    // Sets the timer and starts a 120 second clock
     setTimer();
 
     // create questions to display
@@ -51,3 +51,21 @@ function makeQuestions() {
         answerBtn = answerChoices.appendChild(nextChoice).setAttribute("class", "p-3 m-1 btn btn-light btn-block");
     }
 }
+// Shows the option to put a name on the scoreboard
+function displayScore() {
+    document.getElementById("quiz").classList.add('d-none');
+    document.getElementById("submit-score").classList.remove('d-none');
+    userScoreElement.textContent = "FINAL SCORE: " + secondsLeft + ".";
+}
+
+// Event Listeners for Main Buttons
+startBtn.addEventListener("click", startTimer);
+submitBtn.addEventListener("click", function (event) {
+    event.stopPropagation();
+    addScore();
+    
+    window.location.href = './highscores.html'
+});
+
+function addScore () {
+    userNameInput = document.getElementById("userName").value
