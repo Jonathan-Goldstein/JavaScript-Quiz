@@ -31,8 +31,8 @@ var questions = [
 
     {
         title: "What does JS stand for?",
-        choices: ["JavaScript", "Just Saying", "Java", "Html"],
-        answer: "Javascript"
+        choices: ["Java Script", "Just Saying", "Java", "Html"],
+        answer: "Java Script"
     },
 
 
