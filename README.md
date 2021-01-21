@@ -31,11 +31,11 @@ https://jonathan-goldstein.github.io/JavaScript-Quiz/
 
 ![plot](./assets/images/Image2.jpeg)
 
-## Getting an answer right:
+## Getting an answer right prompts "You got the right answer!":
 
 ![plot](./assets/images/ImageCorrect.jpeg)
 
-## Getting an answer wrong:
+## Getting an answer wrong prompts "Sorry, better luck next time!":
 
 ![plot](./assets/images/ImageIncorrect.jpeg)
 
