@@ -93,3 +93,20 @@ function showFeedback(){
     var pElement = document.getElementsByClassName("feedback")[0]
     pElement.removeAttribute('style');
 }
+answerChoices.addEventListener("click", function (event) {
+    var pElement = document.getElementsByClassName("feedback")[0]
+    
+    // evaluation of user's answer choices & feedback
+    if (answer === event.target.textContent) {   
+        pElement.innerHTML = "YES!";
+        setTimeout(hideFeedback,1225);
+        showFeedback();   
+        
+    } else {
+        pElement.innerHTML = "WRONG.";
+        setTimeout(hideFeedback,1225);
+        secondsLeft = secondsLeft - 10;
+        showFeedback();
+    }    
+    makeQuestions();
+});
