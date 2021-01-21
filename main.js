@@ -8,17 +8,21 @@ var userNameInput;
 var questionHead = document.getElementById("questions");
 var answerChoices = document.getElementById("answers");
 
+
 var questionNumber = -1;
 var answer;
+
+
+
 function startTimer() {
  
     document.getElementById("home").classList.add('d-none');
     document.getElementById("quiz").classList.remove('d-none');
 
-    // Sets the timer and starts a 120 second clock
+    // Sets the time to 120
     setTimer();
 
-    // create questions to display
+    // Puts the questions on the page to display
     makeQuestions();
 }
 
@@ -51,7 +55,8 @@ function makeQuestions() {
         answerBtn = answerChoices.appendChild(nextChoice).setAttribute("class", "p-3 m-1 btn btn-light btn-block");
     }
 }
-// Shows the option to put a name on the scoreboard
+
+// Creatse the display options to put on the score board
 function displayScore() {
     document.getElementById("quiz").classList.add('d-none');
     document.getElementById("submit-score").classList.remove('d-none');
@@ -69,18 +74,18 @@ submitBtn.addEventListener("click", function (event) {
 
 function addScore () {
     userNameInput = document.getElementById("userName").value
- 
-    // makes a new object with the keys: name and score
+    
+    // creates a new object with the name and score keys
 var newScore = {
         name: userNameInput,
         score: secondsLeft
     };
-    // checks if there are scores in local storage first and takes the value
-    //if not, it makes a blank array
+    // checks if there are scores in local storage first and then takes the value
+    //if not, makes a blank array
     var highScores = JSON.parse(localStorage.getItem("highScores") || "[]");
-    // push object into score array
+    // pushes objects into score array
     highScores.push(newScore)
-    // turns the objects into an array of strings and puts it into local storage
+    // turns objects into an array of strings + then puts it into local storage
     localStorage.setItem("highScores", JSON.stringify(highScores));
 }
 
@@ -93,10 +98,11 @@ function showFeedback(){
     var pElement = document.getElementsByClassName("feedback")[0]
     pElement.removeAttribute('style');
 }
+
 answerChoices.addEventListener("click", function (event) {
     var pElement = document.getElementsByClassName("feedback")[0]
     
-    // evaluation of user's answer choices & feedback
+    // evaluates the  user's answer gives choices & feedback
     if (answer === event.target.textContent) {   
         pElement.innerHTML = "YES!";
         setTimeout(hideFeedback,1225);
