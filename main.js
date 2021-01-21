@@ -84,3 +84,12 @@ var newScore = {
     localStorage.setItem("highScores", JSON.stringify(highScores));
 }
 
+function hideFeedback(){
+    var pElement = document.getElementsByClassName("feedback")[0]
+    pElement.style.display='none'
+}
+
+function showFeedback(){
+    var pElement = document.getElementsByClassName("feedback")[0]
+    pElement.removeAttribute('style');
+}
