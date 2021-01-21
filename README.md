@@ -17,6 +17,6 @@ As a coding boot camp student, I wanted to make a quiz on JavaScript fundamental
 
 7.) The high scores can be viewed at any time by clicking on the link at the top left of the page.
 
-## Below is a live link to the website:
+## Link to the website:
 
 https://jonathan-goldstein.github.io/JavaScript-Quiz/
