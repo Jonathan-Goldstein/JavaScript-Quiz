@@ -21,7 +21,7 @@ As a coding boot camp student, I wanted to make a quiz on JavaScript fundamental
 
 https://jonathan-goldstein.github.io/JavaScript-Quiz/
 
-# Below are images showing the functional webpage:
+# Below are images showing the functional webpages:
 
 ## The landing page:
 
