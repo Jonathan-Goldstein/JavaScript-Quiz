@@ -104,12 +104,12 @@ answerChoices.addEventListener("click", function (event) {
     
     // evaluates the  user's answer gives choices & feedback
     if (answer === event.target.textContent) {   
-        pElement.innerHTML = "YES!";
+        pElement.innerHTML = "You got the right answer!";
         setTimeout(hideFeedback,1225);
         showFeedback();   
         
     } else {
-        pElement.innerHTML = "WRONG.";
+        pElement.innerHTML = "Sorry, better luck next time!";
         setTimeout(hideFeedback,1225);
         secondsLeft = secondsLeft - 10;
         showFeedback();
