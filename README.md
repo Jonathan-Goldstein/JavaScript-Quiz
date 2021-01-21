@@ -20,3 +20,13 @@ As a coding boot camp student, I wanted to make a quiz on JavaScript fundamental
 ## Link to the website:
 
 https://jonathan-goldstein.github.io/JavaScript-Quiz/
+
+## Below are images showing the functional webpage:
+
+![plot](./assets/images/Image1.png)
+
+![plot](./assets/images/Image2.png)
+
+![plot](./assets/images/Image3.png)
+
+![plot](./assets/images/Image3.png)
