@@ -31,6 +31,14 @@ https://jonathan-goldstein.github.io/JavaScript-Quiz/
 
 ![plot](./assets/images/Image2.jpeg)
 
+## Getting an answer right:
+
+![plot](./assets/images/ImageCorrect.jpeg)
+
+## Getting an answer wrong:
+
+![plot](./assets/images/ImageIncorrect.jpeg)
+
 ## The input for the user's name or initials:
 
 ![plot](./assets/images/Image3.jpeg)
