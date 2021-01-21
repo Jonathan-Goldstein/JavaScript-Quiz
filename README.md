@@ -13,7 +13,7 @@ I was required to create an application using primarilly Javascript that conduct
 
 4.) When the timer runs out or the user answers every question, the quiz ends and the user is directed to save their score.
 
-5.) The high score pages stores the names and scores of those who played the game, but the user has the option of resetting the scores to null.
+5.) The high scores page stores the names and scores of those who played the game, but the user has the option of resetting the scores to null.
 
 6.) The high scores can be viewed at any time by clicking on the link at the top left of the page.
 
