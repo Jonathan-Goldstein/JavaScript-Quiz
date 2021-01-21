@@ -23,14 +23,18 @@ https://jonathan-goldstein.github.io/JavaScript-Quiz/
 
 ## Below are images showing the functional webpage:
 
-The landing page:
+#The landing page:
+
 ![plot](./assets/images/Image1.png)
 
-The multiple choice questions:
+#The multiple choice questions:
+
 ![plot](./assets/images/Image2.png)
 
-The input for the user's name or initials:
+#The input for the user's name or initials:
+
 ![plot](./assets/images/Image3.png)
 
-The high scores page:
+#The high scores page:
+
 ![plot](./assets/images/Image3.png)
