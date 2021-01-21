@@ -1,3 +1,5 @@
+# Java Script Quiz
+
 # Task:
 As a coding boot camp student, I wanted to make a quiz on JavaScript fundamentals that stored high scores. This way I can gauge my progress compared to my peers.
 
