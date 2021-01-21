@@ -69,3 +69,18 @@ submitBtn.addEventListener("click", function (event) {
 
 function addScore () {
     userNameInput = document.getElementById("userName").value
+ 
+    // makes a new object with the keys: name and score
+var newScore = {
+        name: userNameInput,
+        score: secondsLeft
+    };
+    // checks if there are scores in local storage first and takes the value
+    //if not, it makes a blank array
+    var highScores = JSON.parse(localStorage.getItem("highScores") || "[]");
+    // push object into score array
+    highScores.push(newScore)
+    // turns the objects into an array of strings and puts it into local storage
+    localStorage.setItem("highScores", JSON.stringify(highScores));
+}
+
