@@ -1,38 +1,38 @@
 var questions = [
     {
-        title: "How many bagels are in a bakers dozen?",
-        choices: ["12", "5", "100", "13"],
-        answer: "13"
+        title: "Which of the following is the correct syntax to print a page using JavaScript?",
+        choices: ["window.print();", "browser.print();", "navigator.print();", "document.print();"],
+        answer: "window.print();"
     },
 
     {
-        title: "Who is the chosen one in J.K. Rowling's book about magical english wizards?",
-        choices: ["Hermione Granger", "Ronald Weasely", "Harry Potter", "Albus Dumbledore"],
-        answer: "Harry Potter"
+        title: "Which built-in method reverses the order of the elements of an array?",
+        choices: ["changeOrder(order)", "reverse()", "sort(order)", "None of the above."],
+        answer: "reverse()"
     },
 
     {
-        title: "How many stars are on the American flag?",
-        choices: ["100", "30", "50", "45"],
-        answer: "50"
+        title: "Which of the following function of Array object returns a new array comprised of this array joined with other array(s) and/or value(s)?",
+        choices: ["concat()", "pop()", "push()", "some()"],
+        answer: "concat()"
     },
 
     {
-        title: "Which of the following numbers are Pi",
-        choices: ["2.98", "9.87", "3.14", "6.34"],
-        answer: "3.14"
+        title: "Which of the following function of Array object sorts the elements of an array?",
+        choices: ["toSource()", "toString()", "unshift()", "sort()"],
+        answer: "sort()"
     },
 
     {
-        title: "Which American President issued the Emancipation Proclamation?",
-        choices: ["George Washington", "Abraham Lincoln", "Bill Clinton", "William Taft"],
-        answer: "Abraham Lincoln"
+        title: "Which of the following is not a valid JavaScript variable name?",
+        choices: ["2names", "_first_and_last_names", "FirstAndLast", "None of the above"],
+        answer: "2names"
     },
 
     {
-        title: "What does html stand for?",
-        choices: ["Hypertext Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Manipulation Language", "Home Tool Manipulation"],
-        answer: "Hypertext Markup Language"
+        title: "What does JS stand for?",
+        choices: ["JavaScript", "Just Saying", "Java", "Html"],
+        answer: "Javascript"
     },
 
 
