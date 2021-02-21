@@ -46,3 +46,5 @@ https://jonathan-goldstein.github.io/JavaScript-Quiz/
 ## The high scores page:
 
 ![plot](./assets/images/Image4.jpeg)
+
+mit
