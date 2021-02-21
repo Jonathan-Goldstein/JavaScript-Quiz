@@ -47,4 +47,3 @@ https://jonathan-goldstein.github.io/JavaScript-Quiz/
 
 ![plot](./assets/images/Image4.jpeg)
 
-mit
